@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background: url(./img/1614410508_68-p-temnii-fon-dlya-storiz-69.jpg);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.container h1{
+    color: white;
+    text-align: center;
+}
+.container .content{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container .timeEnter {
+    margin-right: 50px;
+}
+.container .timeEnter .prev {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.container .timeEnter .innerEnter{
+    width: 150px;
+    height: 25px;
+    background: white;
+    font-weight: 700;
+    font-family: serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.container .exitTime .next {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+.container .exitTime .innerExit{
+    width: 150px;
+    height: 25px;
+    background: white;
+    font-weight: 700;
+    font-family: serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.container .price{
+    width: 250px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+    height: 50px;
+    background: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
